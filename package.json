@@ -1,0 +1,21 @@
+{
+    "name": "virtual-keyboard",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "eslint ./src --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Arkhipenka/virtual-keyboard.git"
+    },
+    "author": "Arkhipenka Andrei",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-react": "^7.32.2"
+    }
+}
