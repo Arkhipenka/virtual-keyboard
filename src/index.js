@@ -1,3 +1,10 @@
+import Button from "./button.js";
+import ButtonWord from "./buttonWord.js";
+import ButtonAlternative from "./buttonAlternative.js";
+
+import arrayButtons from "./arrayButtons.js";
+import { isCaps, isShift, runOnKeys, isArrow, isCtrl } from "./utils.js";
+
 class Keyboard {
   constructor() {
     this.capsLock = false;
